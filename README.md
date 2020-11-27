@@ -1,6 +1,5 @@
-## Get started with Precious Assistant
 
-![](RackMultipart20201127-4-1jvjkzr_html_5145a22f4890fb71.png)
+## Get started with Precious Assistant
 
 ### What is Precious?
 
@@ -8,6 +7,7 @@ Precious is digital life assistant that allows you to interact with your compute
 
 You can type your commands in the lower region of the window and view the conversation log above, where the application may also present certain options as hyperlinks.
 
+### Demo link: [Precious Assistant](https://sourceforge.net/projects/precious-assistant-1-0-app/#:~:text=Precious%20is%20digital%20life%20assistant%20that%20allows%20you,24%20hours%20a%20day,%207%20days%20in%20a)
 ### Use online speech recognition
 
 To use this speech recognition option, you will need Internet connection, Google Chrome browser and a good quality microphone on your computer. To make Precious start listening to you, click on the microphone button. This will open a speech recognition window. Follow further instructions on that window.
@@ -22,19 +22,17 @@ Precious can apply artificial intelligence for solving a wide range of mathemati
 
 ### Search Information from the Internet
 
-Precious can create a report on any subject by retrieving information from the internet. It can even search for you on search engines like Google and other online resources like Wikipedia. ![](RackMultipart20201127-4-1jvjkzr_html_3c6ec159fa671eb8.png)
+Precious can create a report on any subject by retrieving information from the internet. It can even search for you on search engines like Google and other online resources like Wikipedia. 
 
 ### Use Dictionary and Thesaurus
 
 Precious can show you definition of any word. It is a free reference tool for your computer desktop that will improve both your writing skills and your vocabulary. This means it can help you in creative writing, academic papers, marketing, business relations or even being a good orator.
 
-Precious is feature-rich software that does much more than a paper dictionary or thesaurus. It is a speech recognition enabled dictionary with audio reply. This means just voice command it to define a word and it will speak back the definition to you. It can even show definition of words through other online sources like Wikipedia and Google. ![](RackMultipart20201127-4-1jvjkzr_html_dd8f03c43bcfc654.png)
+Precious is feature-rich software that does much more than a paper dictionary or thesaurus. It is a speech recognition enabled dictionary with audio reply. This means just voice command it to define a word and it will speak back the definition to you. It can even show definition of words through other online sources like Wikipedia and Google. 
 
 ### Open any Program, Files, Folder or Webpage
 
 You can open any program, files, folder or a webpage quickly using Precious. You can also teach Precious and create your custom command to open a file, application or a URL.
-
-![](RackMultipart20201127-4-1jvjkzr_html_9512797ce11ec2c9.png)
 
 ### Get News and Weather Report
 
@@ -47,8 +45,6 @@ Startup Command allows you to specify a command that gets executed automatically
 ### Locate Countries on the Map
 
 It&#39;s a game which allows you to locate countries on the map. If your answer is correct, you will win points; otherwise, you will lose them. Right answers are the key to success. To finish the game, either find all 177 countries or click the Finish Game button.
-
-![](RackMultipart20201127-4-1jvjkzr_html_27c77c61cd2bdb19.png)
 
 ### Use the Artificial Brain
 
@@ -113,7 +109,5 @@ Try these commands and see for yourself
 - Shutdown Computer
 - 1 – log(4 - 43) + 1
 - 20345
-
-![](RackMultipart20201127-4-1jvjkzr_html_9b8bbb78fb98da5b.png)
 
 # **Precious Assistant was built with love!!!**
