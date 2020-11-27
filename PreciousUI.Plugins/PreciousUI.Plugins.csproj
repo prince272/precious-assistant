@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C42D4A0-A058-4CE5-8F04-39B3760058BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PreciousUI.Plugins</RootNamespace>
+    <AssemblyName>PreciousUI.Plugins</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\..\Binaries\NCalc - Sources\Evaluant.Calculator\bin\Debug\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BibleNet.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Binaries\Bible Net\bin\Debug\BibleNet.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="dirsearch">
+      <HintPath>..\..\..\Binaries\Windows Search 3x\Querying\DSearch\bin\Debug\dirsearch.exe</HintPath>
+    </Reference>
+    <Reference Include="Docs.Word, Version=2.3.0.0, Culture=neutral, PublicKeyToken=a8815d31f34534e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\Docs.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Jint, Version=2.7.1.0, Culture=neutral, PublicKeyToken=2e92ba9c8d81157f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Search.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f748985a6e9a7cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\..\Binaries\Windows Search 3x\Querying\DSearch\bin\Debug\Microsoft.Search.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>..\..\..\Binaries\Windows API CodePack\Shell\bin\Debug\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>..\..\..\Binaries\Windows API CodePack\Shell\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="NCalc">
+      <HintPath>..\..\..\Binaries\NCalc - Sources\Evaluant.Calculator\bin\Debug\NCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHunspell, Version=1.2.5554.16953, Culture=neutral, PublicKeyToken=1ac793ea843b4366, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\NHunspell.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.Bot, Version=1.2.4.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\Syn.Bot.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.Bot.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\Syn.Bot.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.Log, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\Syn.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\Syn.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.VA, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\Syn.VA.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.VA.Utility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PreciousUI\Dll\Syn.VA.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WordNet.Net, Version=1.0.6380.22395, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Binaries\Word Net\bin\Debug\WordNet.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\AppAdapter.cs" />
+    <Compile Include="Adapters\BibleAdapter.cs" />
+    <Compile Include="Adapters\ClipboardAdapter.cs" />
+    <Compile Include="Adapters\DictionaryAdapter.cs" />
+    <Compile Include="Adapters\MapAdapter.cs" />
+    <Compile Include="Adapters\MediaAdapter.cs" />
+    <Compile Include="Adapters\SampleAdapter.cs" />
+    <Compile Include="Adapters\WikipediaAdapter.cs" />
+    <Compile Include="Adapters\WindowAdapter.cs" />
+    <Compile Include="BotResponse.cs" />
+    <Compile Include="DSearchPlugin.cs" />
+    <Compile Include="Internals\BotTextHelper.cs" />
+    <Compile Include="Internals\DSearchHelper.cs" />
+    <Compile Include="Internals\FileUtil.cs" />
+    <Compile Include="Internals\LinkVariables.cs" />
+    <Compile Include="Internals\NumberText.cs" />
+    <Compile Include="Internals\ProcessHelper.cs" />
+    <Compile Include="Internals\RtfDocumentHelper.cs" />
+    <Compile Include="Internals\RtfUtility.cs" />
+    <Compile Include="Internals\StringExtension.cs" />
+    <Compile Include="Internals\WikipediaApi.cs" />
+    <Compile Include="KJBiblePlugin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SimlPlugin.cs" />
+    <Compile Include="WikipediaPlugin.cs" />
+    <Compile Include="WordNetPlugin.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dll\Docs.Word.dll" />
+    <Content Include="Dll\Hunspellx64.dll" />
+    <Content Include="Dll\Hunspellx86.dll" />
+    <Content Include="Dll\Jint.dll" />
+    <Content Include="Dll\Newtonsoft.Json.dll" />
+    <Content Include="Dll\NHunspell.dll" />
+    <Content Include="Dll\RestSharp.dll" />
+    <Content Include="Dll\Syn.Bot.dll" />
+    <Content Include="Dll\Syn.Bot.Utility.dll" />
+    <Content Include="Dll\Syn.Log.dll" />
+    <Content Include="Dll\Syn.Utility.dll" />
+    <Content Include="Dll\Syn.VA.dll" />
+    <Content Include="Dll\Syn.VA.Utility.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

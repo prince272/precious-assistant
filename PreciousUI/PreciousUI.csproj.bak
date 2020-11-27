@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A4027BD-1EBC-49E7-899F-5B797800ED94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PreciousUI</RootNamespace>
+    <AssemblyName>precious</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Precious Assistant</ProductName>
+    <PublisherName>Humosoft</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.5.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsUrl>G:\Apps\Firefox</BootstrapperComponentsUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2DE6B62F91A11D5CE29126802F33284EA5D5052E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PreciousUI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.BonusSkins.v17.1" />
+    <Reference Include="DevExpress.Data.v17.1" />
+    <Reference Include="DevExpress.Map.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.TreeMap.v17.1.Core, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.1" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1" />
+    <Reference Include="DevExpress.Printing.v17.1.Core" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraMap.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraWizard.v17.1, Version=17.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="dirsearch">
+      <HintPath>..\..\..\Binaries\Windows Search 3x\Querying\DSearch\bin\Debug\dirsearch.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Search.Interop">
+      <HintPath>..\PreciousUI.Plugins\bin\Debug\Microsoft.Search.Interop.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PreciousUI.Plugins">
+      <HintPath>..\PreciousUI.Plugins\bin\Debug\PreciousUI.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.Bot">
+      <HintPath>..\PreciousUI.Plugins\bin\Debug\Syn.Bot.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.Bot.Utility">
+      <HintPath>..\PreciousUI.Plugins\bin\Debug\Syn.Bot.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.Log">
+      <HintPath>..\PreciousUI.Plugins\bin\Debug\Syn.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.Utility">
+      <HintPath>..\PreciousUI.Plugins\bin\Debug\Syn.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.VA">
+      <HintPath>..\PreciousUI.Plugins\bin\Debug\Syn.VA.dll</HintPath>
+    </Reference>
+    <Reference Include="Syn.VA.Utility">
+      <HintPath>..\PreciousUI.Plugins\bin\Debug\Syn.VA.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\VirtualAssistantControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GetStartedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GetStartedForm.Designer.cs">
+      <DependentUpon>GetStartedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProductKeyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductKeyForm.designer.cs">
+      <DependentUpon>ProductKeyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashScreenForm.Designer.cs">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserProfileForm.Designer.cs">
+      <DependentUpon>UserProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WaitIndicatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WaitIndicatorForm.Designer.cs">
+      <DependentUpon>WaitIndicatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Internals\BeceFileInfo.cs" />
+    <Compile Include="Internals\DrawHelper.cs" />
+    <Compile Include="Internals\Extensions\CommonExtension.cs" />
+    <Compile Include="Internals\Extensions\ControlExtensions.cs" />
+    <Compile Include="Internals\ExceptionHelper.cs" />
+    <Compile Include="Internals\FlagsGameCore.cs" />
+    <Compile Include="Internals\MapOverlayUtils.cs" />
+    <Compile Include="Internals\ProcessHelper.cs" />
+    <Compile Include="Internals\ProgramSecurity.cs" />
+    <Compile Include="Internals\SplashScreenHelper.cs" />
+    <Compile Include="Internals\TextHelper.cs" />
+    <Compile Include="Internals\WinApiHelper.cs" />
+    <Compile Include="Modules\Panels\ConversationPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Panels\ConversationPanel.Designer.cs">
+      <DependentUpon>ConversationPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Panels\FlagGamePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Panels\FlagGamePanel.designer.cs">
+      <DependentUpon>FlagGamePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Panels\PhotoGalleryrPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Panels\PhotoGalleryrPanel.Designer.cs">
+      <DependentUpon>PhotoGalleryrPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Panels\PanelBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Panels\PanelBase.Designer.cs">
+      <DependentUpon>PanelBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Internals\DataDirectoryHelper.cs" />
+    <Compile Include="Internals\EditorHelper.cs" />
+    <Compile Include="Internals\SkinAppearanceHelper.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GetStartedForm.resx">
+      <DependentUpon>GetStartedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProductKeyForm.resx">
+      <DependentUpon>ProductKeyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreenForm.resx">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserProfileForm.resx">
+      <DependentUpon>UserProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WaitIndicatorForm.resx">
+      <DependentUpon>WaitIndicatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Panels\ConversationPanel.resx">
+      <DependentUpon>ConversationPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Panels\FlagGamePanel.resx">
+      <DependentUpon>FlagGamePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Panels\PhotoGalleryrPanel.resx">
+      <DependentUpon>PhotoGalleryrPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="PreciousUI_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="SkinData\hybridapp.blob" />
+    <EmbeddedResource Include="Resources\Data\Countries.dbf" />
+    <EmbeddedResource Include="Resources\Data\Countries.shp" />
+    <EmbeddedResource Include="Resources\Data\Fonts\segmdl2.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SkinData\hybridapp.skin.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Data\Capitals.xml" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\easy.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\finish.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\hard.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\loses.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\normal.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\restart.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\score.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\show.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\skip.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\time.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\very_hard.png" />
+    <EmbeddedResource Include="Resources\Images\FlagsGame\wins.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ae.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\am.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ar.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\at.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\au.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\az.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\be.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\bg.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\bh.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\bi.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Afghanistan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Albania.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Algeria.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Angola.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Antarctica.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Argentina.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Armenia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Australia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Austria.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Azerbaijan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Bangladesh.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Belarus.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Belgium.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Belize.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Benin.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Bhutan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Bolivia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Bosnia_and_Herzegovina.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Botswana.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Brazil.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Brunei.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Bulgaria.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Burkina_Faso.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Burundi.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Cambodia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Cameroon.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Canada.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Central_African_Republic.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Chad.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Chile.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\China.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Colombia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Costa_Rica.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Croatia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Cuba.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Cyprus.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Czech_Republic.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Democratic_Republic_of_the_Congo.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Denmark.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Djibouti.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Dominican_Republic.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\East_Timor.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Ecuador.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Egypt.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\El_Salvador.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Equatorial_Guinea.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Eritrea.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Estonia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Ethiopia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Falkland_Islands.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Fiji.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Finland.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\France.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\French_Southern_and_Antarctic_Lands.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Gabon.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Gambia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Georgia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Germany.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Ghana.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Greece.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Greenland.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Guatemala.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Guinea.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Guinea_Bissau.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Guyana.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Haiti.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Honduras.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Hungary.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Iceland.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\India.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Indonesia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Iran.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Iraq.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Ireland.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Israel.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Italy.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Ivory_Coast.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Jamaica.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Japan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Jordan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Kazakhstan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Kenya.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Kosovo.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Kuwait.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Kyrgyzstan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Laos.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Latvia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Lebanon.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Lesotho.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Liberia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Libya.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Lithuania.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Luxembourg.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Macedonia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Madagascar.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Malawi.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Malaysia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Mali.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Mauritania.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Mexico.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Moldova.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Mongolia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Montenegro.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Morocco.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Mozambique.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Myanmar.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Namibia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Nepal.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Netherlands.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\New_Caledonia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\New_Zealand.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Nicaragua.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Niger.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Nigeria.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Northern_Cyprus.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\North_Korea.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Norway.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Oman.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Pakistan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Panama.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Papua_New_Guinea.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Paraguay.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Peru.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Philippines.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Poland.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Portugal.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Puerto_Rico.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Qatar.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Republic_of_Serbia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Republic_of_the_Congo.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Romania.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Russia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Rwanda.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Saudi_Arabia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Senegal.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Sierra_Leone.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Slovakia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Slovenia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Solomon_Islands.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Somalia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Somaliland.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\South_Africa.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\South_Korea.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\South_Sudan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Spain.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Sri_Lanka.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Sudan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Suriname.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Swaziland.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Sweden.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Switzerland.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Syria.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Taiwan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Tajikistan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Thailand.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\The_Bahamas.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Togo.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Trinidad_and_Tobago.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Tunisia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Turkey.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Turkmenistan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Uganda.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Ukraine.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\United_Arab_Emirates.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\United_Kingdom.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\United_Republic_of_Tanzania.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\United_States_of_America.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Uruguay.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Uzbekistan.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Vanuatu.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Venezuela.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Vietnam.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Western_Sahara.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\West_Bank.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Yemen.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Zambia.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\Big\Zimbabwe.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\br.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\bs.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\by.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ca.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ch.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ci.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\cn.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\co.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\cu.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\cz.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\de.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\dk.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\do.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\dz.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ee.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\eg.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\es.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\et.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\fi.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\fj.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\fr.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\gb.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\gd.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ge.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\gr.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\hr.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\hu.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\id.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ie.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\il.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\in.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ir.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\it.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\jm.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\jo.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\jp.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ke.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ko.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\kp.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\kr.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\kw.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\kz.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\lt.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\lv.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ma.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\md.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\mn.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\mx.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\my.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ne.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ng.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\nl.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\no.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\nz.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ph.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\pl.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\pr.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\pt.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\qa.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ro.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\rs.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ru.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\se.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\sg.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\si.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\sk.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\sl.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\th.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\tj.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\tn.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\tr.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\tt.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\tw.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ua.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\us.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\uz.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\ve.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\vn.png" />
+    <EmbeddedResource Include="Resources\Images\Flags\za.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dll\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
