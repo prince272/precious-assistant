@@ -116,4 +116,4 @@ Try these commands and see for yourself
 
 ![](RackMultipart20201127-4-1jvjkzr_html_9b8bbb78fb98da5b.png)
 
-# **We love you because we really care!!!**
+# **Precious Assistant was built with love!!!**
