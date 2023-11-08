@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PreciousUI.Plugins</RootNamespace>
     <AssemblyName>PreciousUI.Plugins</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,11 +32,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Antlr3.Runtime">
-      <HintPath>..\..\..\Binaries\NCalc - Sources\Evaluant.Calculator\bin\Debug\Antlr3.Runtime.dll</HintPath>
+      <HintPath>..\DLLs\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="BibleNet.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Binaries\Bible Net\bin\Debug\BibleNet.Net.dll</HintPath>
+      <HintPath>..\DLLs\BibleNet.Net.dll</HintPath>
     </Reference>
     <Reference Include="dirsearch">
       <HintPath>..\..\..\Binaries\Windows Search 3x\Querying\DSearch\bin\Debug\dirsearch.exe</HintPath>
@@ -52,16 +53,16 @@
     <Reference Include="Microsoft.Search.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9f748985a6e9a7cb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>..\..\..\Binaries\Windows Search 3x\Querying\DSearch\bin\Debug\Microsoft.Search.Interop.dll</HintPath>
+      <HintPath>..\DLLs\Microsoft.Search.Interop.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack">
-      <HintPath>..\..\..\Binaries\Windows API CodePack\Shell\bin\Debug\Microsoft.WindowsAPICodePack.dll</HintPath>
+      <HintPath>..\DLLs\Microsoft.WindowsAPICodePack.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAPICodePack.Shell">
-      <HintPath>..\..\..\Binaries\Windows API CodePack\Shell\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+      <HintPath>..\DLLs\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
     </Reference>
     <Reference Include="NCalc">
-      <HintPath>..\..\..\Binaries\NCalc - Sources\Evaluant.Calculator\bin\Debug\NCalc.dll</HintPath>
+      <HintPath>..\DLLs\NCalc.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -109,7 +110,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="WordNet.Net, Version=1.0.6380.22395, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Binaries\Word Net\bin\Debug\WordNet.Net.dll</HintPath>
+      <HintPath>..\DLLs\WordNet.Net.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
